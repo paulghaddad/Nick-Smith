@@ -1,0 +1,46 @@
+
+/*  Fonts */
+
+@mixin proxima-nova {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+}
+
+@mixin museo {
+	font-family: "museo-slab", serif;
+	font-weight: 500;
+}
+
+@mixin proxima-nova-bold {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 800;
+}
+
+body {
+	@include proxima-nova;
+	color: $light-gray;
+	font-size: 1em;
+}
+
+h1 {
+	@include proxima-nova-bold;
+	margin: 0 0 .1em 0;
+	line-height: 1;
+	font-size: $page-header-size;
+		text-transform: uppercase;
+		span {
+			color: $teal;
+		}
+}
+
+h2 {
+	@include museo;
+}
+
+p {
+	font-size: 1em;
+	letter-spacing: 1px;
+}
+
+
+

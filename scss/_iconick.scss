@@ -1,0 +1,31 @@
+.iconick {
+	background: url('../img/square.png') repeat;
+	h1 {
+		display: block;
+		text-align: center;
+		position: relative;
+		left: -268px;
+		margin-left: 0;
+	}
+	h2 {
+		text-align: center;
+	}
+}
+
+.portfolio-gallery {
+	width: 1030px;
+	margin: 0 auto;
+	padding: 2em 25px 2em 25px;
+	a {
+		display: block;
+		float: left;
+		width: 325px;
+		padding-right: 50px;
+		padding-bottom: 2em;
+
+		img {
+			width: 290px;
+			height: auto;
+		}
+	}
+}

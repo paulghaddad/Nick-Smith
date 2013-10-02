@@ -1,0 +1,30 @@
+
+.nicknamed-banner {
+	height: 632px;
+	background: url('../img/nicknamed_banner.jpg') no-repeat;
+	background-clip: padding-box;
+}
+.nicknamed {
+	background: url('../img/nicknamed_headshot.png') no-repeat 12% 114%, url('../img/square.png') repeat;
+	height: 545px;
+	div {
+		margin-left: 43.5%;
+		width: 48%;
+		padding-top: 3em;
+	}
+	.nicknamed-icon {
+		background: url('../img/nicknamed_icon.png') no-repeat;
+		z-index: 5;
+		position: fixed;
+		width: 70px;
+		height: 71px;
+		top: 20px;
+		margin-left: 363px;
+	}
+	h1 span {
+		display: block;
+		position: fixed;
+		left: 517px;
+	}
+	
+}

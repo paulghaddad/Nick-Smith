@@ -1,0 +1,77 @@
+
+.nicktime {
+	background: url('../img/square.png') repeat;
+	padding-bottom: 3em;
+	h1 {
+		margin-left: 57.5%;
+		display: block;
+	}
+
+	h2 {
+		text-align: center;
+	}	
+	h3 {
+		@include museo;
+		display: block;
+		font-size: 1em;
+		text-transform: uppercase;
+		margin: .5em 0 .5em -.5em;
+		background: $teal;
+		padding: 3px 10px 3px 9px;
+		width: 85%;
+		color: white;
+	}
+	h4 {
+		font-size: 1em;
+		margin: .1em 0;
+		font-weight: bold;
+	}
+	h4 + p {
+		margin: 0;
+	}
+	p + p {
+		margin: 0;
+		line-height: 1.2;
+	}
+
+}
+
+.nicktime .grid-1-4 {
+	width: 23%;
+	margin-left: 2%;
+	float: left;
+}
+
+.time-wrap {
+	padding: 2em 13%;
+	p, ul {
+		font-size: .9em;
+	}
+	ul {
+		padding: 4px 0 0 12px;
+		li {
+			list-style-type: square;
+			line-height: 1.2;
+			
+		}
+		li + li {
+				padding-top: .5em;
+			}
+
+	}
+
+}
+
+.nicktime a {
+	display: block;
+	margin: 0 auto;
+	width: 19%;
+	text-transform: uppercase;
+	background: $gray;
+	color: white;
+	text-align: center;
+	padding: .4em;
+	font-size: .8em;
+}
+
+

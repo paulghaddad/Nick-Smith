@@ -1,0 +1,47 @@
+@import "compass/css3";
+
+.top-nav {
+	position: fixed;
+	background: url('../img/nav_repeating.jpg') repeat;
+	height: 48px;
+	width: 100%;
+	min-width: 1200px;
+	box-shadow: 0 2px 10px 6px darken(hsla(0,0,0, .4), 15%);
+
+	ul, li {
+		float: left;
+	}
+	ul {
+		margin-left: 448px;
+		padding: 5px 0;
+		
+		.current-navigation {
+	   		color: $teal;
+	   }
+
+		
+	}
+	a {
+	   display: block;
+	   line-height: 2em;  
+	   padding: .45em 1em;
+	   color: white;
+	   text-transform: uppercase;
+	   @include proxima-nova-bold;
+	   font-size: $link-size;
+	   font-weight: 800;
+	   letter-spacing: 0.8px;
+	   span {
+	   			color: $teal;
+	   }
+	  &:active,
+		&:hover {
+    	color: $teal;
+    	span {
+    		color: white;
+    	}
+		}
+
+	}
+}
+
