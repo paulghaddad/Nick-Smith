@@ -3,8 +3,12 @@
 	background: url('../img/square.png') repeat;
 	padding-bottom: 3em;
 	h1 {
-		margin-left: 57.5%;
+		margin-left: 0;
 		display: block;
+		// text-align: center;
+		position: absolute;
+		left: 728px;
+		top: 3555px;
 	}
 
 	h2 {

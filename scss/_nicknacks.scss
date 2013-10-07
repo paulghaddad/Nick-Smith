@@ -1,16 +1,17 @@
 .nicknacks {
 	min-height: 950px;
-	background: url('../img/nacks.png') no-repeat, url('../img/nav_repeating.jpg') repeat;
+	background: url('../img/nacks.png') no-repeat, url('../img/nav_repeating_2.jpg') repeat;
 	background-position: 58% 90%;
 	h1, h2 {
 		color: white;
 	}
 	h1 {
 		display: block;
-		text-align: center;
-		position: relative;
-
+		// text-align: center;
+		position: absolute;
+		left: 723px;
 		margin-left: 0;
+		top: 2590px;
 	}
 	h2 {
 		text-align: center;
