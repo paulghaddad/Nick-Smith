@@ -4,7 +4,6 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-        <link href='http://fonts.googleapis.com/css?family=Karla:400,700|Sanchez' rel='stylesheet' type='text/css'>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>NICKNAMED</title>
@@ -14,6 +13,7 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/main.css">
+        <link href="js/lightbox/css/lightbox.css" rel="stylesheet" />
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script type="text/javascript" src="//use.typekit.net/nuk5vra.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -30,7 +30,7 @@
 
 
                 <ul>
-                    <li><a href="#nicknamed" title="NickNamed home page" class="current-navigation">Nicknamed</a></li>
+                    <li><a href="#nicknamed" title="NickNamed home page" class="current-navigation"><span>Nicknamed</span></a></li>
                     <li><a href="#iconick" title="Iconic page">Ico<span>nick</span></a></li>
                     <li><a href="#nicknacks" title="Nicknacks page"><span>Nick</span>nacks</a></li>
                     <li><a href="#nickoftime" title="Nick of time page"><span>Nick</span>oftime</a></li>
@@ -38,36 +38,39 @@
                 </ul>
             </nav>
 
-            <div class="nicknamed">
+            <div class="nicknamed" id="nicknamed">
                 <div class="nicknamed-icon"></div>
                 <div>
-                    <h1><span>Nick</span>named</h1>
-                    <p>I never liked going by Nicholas.  Nicholas is a serious guy.  Rarely laughs at a joke.  Wears really fancy shoes.  I'm Nick, an art directory from Columbus.  I've been having a great time at what I do for over 8 years.  I've worked on small brands, big brands and am currently working in a brand.  Thanks for visiting, and please, call me Nick.</p>
+                    <h1 id="nicknamed"><span class="floating">Nick</span><span class="staying">named</span></h1>
+                    <p>I never liked going by Nicholas.  Nicholas is a serious guy.  Rarely laughs at a joke.  Wears really fancy shoes.  I'm Nick, a designer from Columbus.  I've been having a great time at what I do for over 8 years.  I've worked on small brands, big brands and am currently working in a brand.  Thanks for visiting, and please, call me Nick.</p>
                 </div>
             </div>
             <div class="nicknamed-banner">
                     <!-- Banner image goes here -->
             </div>
-            <div class="iconick">
+            <div class="iconick" id="iconick">
                 
                     <h1>Ico</h1>
                     <h2>My portfolio, probably the reason you stopped by</h2>
                 
                 <div class="portfolio-gallery clearfix">
-                    <a href="#" title="sitename"><img src="img/nick_aaa.png"></a>
-                    <a href="#" title="sitename"><img src="img/nick_baggallini.png"></a>
-                    <a href="#" title="sitename"><img src="img/nick_bbb.png"></a>
-                    <a href="#" title="sitename"><img src="img/nick_combo.png"></a>
-                    <a href="#" title="sitename"><img src="img/nick_dearfoams.png"></a>
-                    <a href="#" title="sitename"><img src="img/nick_shred.png"></a>
-                    <a href="#" title="sitename"><img src="img/nick_skyline.png"></a>
-                    <a href="#" title="sitename"><img src="img/nick_ultimate.png"></a>
-                    <a href="#" title="sitename"><img src="img/nick_village.png"></a>
+                    <a href="img/nick_aaa2.jpg" data-lightbox="aaa" title="Summer vacations are a part of the DNA of AAA. These store posters help make sure travelers pack a AAA card along with their flip flops by inviting them to enter our sweepstakes on the spot using their smart phone."><img src="img/nick_aaa2.jpg"></a>
+                    <a href="img/nick_aaa3.jpg" data-lightbox="aaa" class="hidden-image" title="Summer vacations are a part of the DNA of AAA. These store posters help make sure travelers pack a AAA card along with their flip flops by inviting them to enter our sweepstakes on the spot using their smart phone."></a>
+                    <a href="img/nick_baggallini.png" data-lightbox="baggallini" title="Caption 2"><img src="img/nick_baggallini.png"></a>
+                    <a href="img/nick_bbb.jpg" data-lightbox="bbb" title="It’s a regular visitor to more than 60 million mailboxes each month and a key driver of Bed Bath & Beyond’s $10 billion in annual store sales. Don’t you dare call it junk mail."><img src="img/nick_bbb.jpg"></a>
+                    <a href="img/nick_bbb2.jpg" data-lightbox="bbb" title="It’s a regular visitor to more than 60 million mailboxes each month and a key driver of Bed Bath & Beyond’s $10 billion in annual store sales. Don’t you dare call it junk mail."></a>
+                    <a href="img/nick_bbb3.jpg" data-lightbox="bbb" title="It’s a regular visitor to more than 60 million mailboxes each month and a key driver of Bed Bath & Beyond’s $10 billion in annual store sales. Don’t you dare call it junk mail."></a>
+                    <a href="img/nick_combo.png" data-lightbox="combo" title="Caption 4"><img src="img/nick_combo.png"></a>
+                    <a href="img/nick_dearfoams.png" data-lightbox="dearfoams" title="Caption 5"><img src="img/nick_dearfoams.png"></a>
+                    <a href="img/nick_shred.png" data-lightbox="shred" title="Caption 6"><img src="img/nick_shred.png"></a>
+                    <a href="img/nick_skyline.png" data-lightbox="skyline" title="Caption 7"><img src="img/nick_skyline.png"></a>
+                    <a href="img/nick_ultimate.png" data-lightbox="ultimate" title="Caption 8"><img src="img/nick_ultimate.png"></a>
+                    <a href="img/nick_village.png" data-lightbox="village" title="Caption 9"><img src="img/nick_village.png"></a>
                 </div>
 
             </div>
 
-            <div class="nicknacks">
+            <div class="nicknacks" id="nicknacks">
                 
                     <h1>Nacks</h1>
                     <h2>You can judge a person by what they can't throw away.</h2>
@@ -75,7 +78,7 @@
 
             </div>
 
-            <div class="nicktime">
+            <div class="nicktime" id="nickoftime">
                 
                     <h1>Of Time</h1>
                     <h2>Big Agency. Small Agency. Inhouse. I've worked at them all.</h2>
@@ -134,12 +137,12 @@
                         </div>
                 </div>
 
-                <a>Download complete resume</a>
+                <a id="submit">Download complete resume</a>
                 
 
             </div>
 
-            <div class="nickpick">
+            <div class="nickpick" id="picknick">
                 
                     <h1>Pick</h1>
                     <h2>Got a project or opportunity you'd like to talk about?</h2>
@@ -154,14 +157,7 @@
                         <a href="http://www.instagram.com/nicknamed" title="sitename"><img src="img/nicknamed_instagram.png"></a>
                     </div>
 
-                    <form action="/gdform.php" method="post">
-                      <input type="hidden" name="subject" value="Nicknamed Form Submission" />
-                      <input type="hidden" name="redirect" value="form_submit.html" />
-                      <input type="text" name="Name" id="name_input" placeholder="Your name">
-                      <input type="email" name="Email Address" id="email" placeholder="Your email">
-                      <textarea name="Message" id="message" placeholder="Your message"></textarea>
-                      <input type="submit" name="submit" value="submit">
-                    </form>
+                    <h2>Thanks for your email! I'll be in touch shortly!</h2>
                 
 
             </div>
@@ -173,10 +169,11 @@
 
         </div>  <!-- end grid -->
   
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/lightbox/js/lightbox-2.6.min.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

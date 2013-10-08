@@ -725,7 +725,8 @@ p {
     padding-left: 219px; }
   /* line 35, ../scss/_nicknamed.scss */
   .nicknamed p {
-    padding-left: 5px; }
+    padding-left: 5px;
+    width: 550px; }
 
 /* line 1, ../scss/_iconick.scss */
 .iconick {
@@ -757,6 +758,9 @@ p {
     .portfolio-gallery a img {
       width: 290px;
       height: auto; }
+  /* line 34, ../scss/_iconick.scss */
+  .portfolio-gallery a.hidden-image {
+    display: none; }
 
 /* line 1, ../scss/_nicknacks.scss */
 .nicknacks {

@@ -13,6 +13,7 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/main.css">
+        <link href="js/lightbox/css/lightbox.css" rel="stylesheet" />
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script type="text/javascript" src="//use.typekit.net/nuk5vra.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -53,15 +54,18 @@
                     <h2>My portfolio, probably the reason you stopped by</h2>
                 
                 <div class="portfolio-gallery clearfix">
-                    <a href="#" title="sitename"><img src="img/nick_aaa.png"></a>
-                    <a href="#" title="sitename"><img src="img/nick_baggallini.png"></a>
-                    <a href="#" title="sitename"><img src="img/nick_bbb.png"></a>
-                    <a href="#" title="sitename"><img src="img/nick_combo.png"></a>
-                    <a href="#" title="sitename"><img src="img/nick_dearfoams.png"></a>
-                    <a href="#" title="sitename"><img src="img/nick_shred.png"></a>
-                    <a href="#" title="sitename"><img src="img/nick_skyline.png"></a>
-                    <a href="#" title="sitename"><img src="img/nick_ultimate.png"></a>
-                    <a href="#" title="sitename"><img src="img/nick_village.png"></a>
+                    <a href="img/nick_aaa2.jpg" data-lightbox="aaa" title="Summer vacations are a part of the DNA of AAA. These store posters help make sure travelers pack a AAA card along with their flip flops by inviting them to enter our sweepstakes on the spot using their smart phone."><img src="img/nick_aaa2.jpg"></a>
+                    <a href="img/nick_aaa3.jpg" data-lightbox="aaa" class="hidden-image" title="Summer vacations are a part of the DNA of AAA. These store posters help make sure travelers pack a AAA card along with their flip flops by inviting them to enter our sweepstakes on the spot using their smart phone."></a>
+                    <a href="img/nick_baggallini.png" data-lightbox="baggallini" title="Caption 2"><img src="img/nick_baggallini.png"></a>
+                    <a href="img/nick_bbb.jpg" data-lightbox="bbb" title="It’s a regular visitor to more than 60 million mailboxes each month and a key driver of Bed Bath & Beyond’s $10 billion in annual store sales. Don’t you dare call it junk mail."><img src="img/nick_bbb.jpg"></a>
+                    <a href="img/nick_bbb2.jpg" data-lightbox="bbb" title="It’s a regular visitor to more than 60 million mailboxes each month and a key driver of Bed Bath & Beyond’s $10 billion in annual store sales. Don’t you dare call it junk mail."></a>
+                    <a href="img/nick_bbb3.jpg" data-lightbox="bbb" title="It’s a regular visitor to more than 60 million mailboxes each month and a key driver of Bed Bath & Beyond’s $10 billion in annual store sales. Don’t you dare call it junk mail."></a>
+                    <a href="img/nick_combo.png" data-lightbox="combo" title="Caption 4"><img src="img/nick_combo.png"></a>
+                    <a href="img/nick_dearfoams.png" data-lightbox="dearfoams" title="Caption 5"><img src="img/nick_dearfoams.png"></a>
+                    <a href="img/nick_shred.png" data-lightbox="shred" title="Caption 6"><img src="img/nick_shred.png"></a>
+                    <a href="img/nick_skyline.png" data-lightbox="skyline" title="Caption 7"><img src="img/nick_skyline.png"></a>
+                    <a href="img/nick_ultimate.png" data-lightbox="ultimate" title="Caption 8"><img src="img/nick_ultimate.png"></a>
+                    <a href="img/nick_village.png" data-lightbox="village" title="Caption 9"><img src="img/nick_village.png"></a>
                 </div>
 
             </div>
@@ -133,7 +137,7 @@
                         </div>
                 </div>
 
-                <a>Download complete resume</a>
+                <a id="submit">Download complete resume</a>
                 
 
             </div>
@@ -155,7 +159,7 @@
 
                     <form action="/gdform.php" method="post">
                       <input type="hidden" name="subject" value="Nicknamed Form Submission" />
-                      <input type="hidden" name="redirect" value="form_submit.html" />
+                      <input type="hidden" name="redirect" value="submit.html#submit" />
                       <input type="text" name="Name" id="name_input" placeholder="Your name">
                       <input type="email" name="Email Address" id="email" placeholder="Your email">
                       <textarea name="Message" id="message" placeholder="Your message"></textarea>
@@ -172,10 +176,11 @@
 
         </div>  <!-- end grid -->
   
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/lightbox/js/lightbox-2.6.min.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
