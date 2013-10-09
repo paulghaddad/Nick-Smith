@@ -791,11 +791,12 @@ p {
     display: block;
     position: absolute;
     left: 728px;
-    top: 3555px; }
-  /* line 14, ../scss/_nicktime.scss */
+    top: 3555px;
+    white-space: nowrap; }
+  /* line 15, ../scss/_nicktime.scss */
   .nicktime h2 {
     text-align: center; }
-  /* line 17, ../scss/_nicktime.scss */
+  /* line 18, ../scss/_nicktime.scss */
   .nicktime h3 {
     font-family: "museo-slab", serif;
     font-weight: 500;
@@ -807,43 +808,43 @@ p {
     padding: 3px 10px 3px 9px;
     width: 85%;
     color: white; }
-  /* line 28, ../scss/_nicktime.scss */
+  /* line 29, ../scss/_nicktime.scss */
   .nicktime h4 {
     font-size: 1em;
     margin: .1em 0;
     font-weight: bold; }
-  /* line 33, ../scss/_nicktime.scss */
+  /* line 34, ../scss/_nicktime.scss */
   .nicktime h4 + p {
     margin: 0; }
-  /* line 36, ../scss/_nicktime.scss */
+  /* line 37, ../scss/_nicktime.scss */
   .nicktime p + p {
     margin: 0;
     line-height: 1.2; }
 
-/* line 43, ../scss/_nicktime.scss */
+/* line 44, ../scss/_nicktime.scss */
 .nicktime .grid-1-4 {
   width: 23%;
   margin-left: 2%;
   float: left; }
 
-/* line 49, ../scss/_nicktime.scss */
+/* line 50, ../scss/_nicktime.scss */
 .time-wrap {
   padding: 2em 13%; }
-  /* line 51, ../scss/_nicktime.scss */
+  /* line 52, ../scss/_nicktime.scss */
   .time-wrap p, .time-wrap ul {
     font-size: .9em; }
-  /* line 54, ../scss/_nicktime.scss */
+  /* line 55, ../scss/_nicktime.scss */
   .time-wrap ul {
     padding: 4px 0 0 12px; }
-    /* line 56, ../scss/_nicktime.scss */
+    /* line 57, ../scss/_nicktime.scss */
     .time-wrap ul li {
       list-style-type: square;
       line-height: 1.2; }
-    /* line 61, ../scss/_nicktime.scss */
+    /* line 62, ../scss/_nicktime.scss */
     .time-wrap ul li + li {
       padding-top: .5em; }
 
-/* line 69, ../scss/_nicktime.scss */
+/* line 70, ../scss/_nicktime.scss */
 .nicktime a {
   display: block;
   margin: 0 auto;
