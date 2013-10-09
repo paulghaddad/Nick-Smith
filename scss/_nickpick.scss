@@ -12,6 +12,7 @@
 		text-align: center;
 		position: absolute;
 		left: 285px;
+		// left: 40%;
 		top: 4378px;
 	}
 	h2 {
@@ -33,6 +34,12 @@
 			padding: 3px;
 		}
 	}
+}
+
+.nicknamed-banner-bottom {
+	height: 632px;
+	background: url('../img/nicknamed_banner_bottom.jpg') no-repeat;
+	background-clip: padding-box;
 }
 
 

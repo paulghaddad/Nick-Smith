@@ -603,7 +603,7 @@ table {
 /* Colors */
 /* Fonts */
 /* line 3, ../scss/_grid.scss */
-body {
+html, body {
   min-width: 1200px; }
 
 /* line 7, ../scss/_grid.scss */
@@ -690,9 +690,9 @@ p {
         color: white; }
 
 /* line 2, ../scss/_nicknamed.scss */
-.nicknamed-banner {
+.nicknamed-banner-top {
   height: 632px;
-  background: url("../img/nicknamed_banner.jpg") no-repeat;
+  background: url("../img/nicknamed_banner_top.jpg") no-repeat;
   background-clip: padding-box; }
 
 /* line 7, ../scss/_nicknamed.scss */
@@ -873,24 +873,30 @@ p {
     position: absolute;
     left: 285px;
     top: 4378px; }
-  /* line 17, ../scss/_nickpick.scss */
+  /* line 18, ../scss/_nickpick.scss */
   .nickpick h2 {
     text-align: center; }
-  /* line 20, ../scss/_nickpick.scss */
+  /* line 21, ../scss/_nickpick.scss */
   .nickpick p {
     margin: 0;
     font-size: .95em; }
-  /* line 24, ../scss/_nickpick.scss */
+  /* line 25, ../scss/_nickpick.scss */
   .nickpick p, .nickpick a {
     text-align: center;
     color: white; }
-  /* line 29, ../scss/_nickpick.scss */
+  /* line 30, ../scss/_nickpick.scss */
   .nickpick .social {
     margin: 30px auto;
     width: 154px; }
-    /* line 32, ../scss/_nickpick.scss */
+    /* line 33, ../scss/_nickpick.scss */
     .nickpick .social img {
       padding: 3px; }
+
+/* line 39, ../scss/_nickpick.scss */
+.nicknamed-banner-bottom {
+  height: 632px;
+  background: url("../img/nicknamed_banner_bottom.jpg") no-repeat;
+  background-clip: padding-box; }
 
 /* line 1, ../scss/_form.scss */
 form {
