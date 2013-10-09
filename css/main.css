@@ -652,22 +652,23 @@ p {
 /* line 3, ../scss/_navigation.scss */
 .top-nav {
   position: fixed;
+  z-index: 10;
   background: url("../img/nav_repeating_2.jpg") repeat;
   height: 48px;
   width: 100%;
   min-width: 1200px;
   box-shadow: 0 2px 10px 6px rgba(0, 0, 0, 0.4); }
-  /* line 11, ../scss/_navigation.scss */
+  /* line 12, ../scss/_navigation.scss */
   .top-nav ul, .top-nav li {
     float: left; }
-  /* line 14, ../scss/_navigation.scss */
+  /* line 15, ../scss/_navigation.scss */
   .top-nav ul {
     margin-left: 448px;
     padding: 5px 0; }
-    /* line 18, ../scss/_navigation.scss */
+    /* line 19, ../scss/_navigation.scss */
     .top-nav ul .current-navigation {
       color: #61c3b2; }
-  /* line 24, ../scss/_navigation.scss */
+  /* line 25, ../scss/_navigation.scss */
   .top-nav a {
     display: block;
     line-height: 2em;
@@ -679,13 +680,13 @@ p {
     font-size: 1em;
     font-weight: 800;
     letter-spacing: 0.8px; }
-    /* line 34, ../scss/_navigation.scss */
+    /* line 35, ../scss/_navigation.scss */
     .top-nav a span {
       color: #61c3b2; }
-    /* line 38, ../scss/_navigation.scss */
+    /* line 39, ../scss/_navigation.scss */
     .top-nav a:active, .top-nav a:hover {
       color: #61c3b2; }
-      /* line 40, ../scss/_navigation.scss */
+      /* line 41, ../scss/_navigation.scss */
       .top-nav a:active span, .top-nav a:hover span {
         color: white; }
 
@@ -708,7 +709,7 @@ p {
   /* line 17, ../scss/_nicknamed.scss */
   .nicknamed .nicknamed-icon {
     background: url("../img/nicknamed_icon.png") no-repeat;
-    z-index: 5;
+    z-index: 15;
     position: fixed;
     width: 70px;
     height: 71px;

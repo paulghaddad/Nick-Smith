@@ -2,6 +2,7 @@
 
 .top-nav {
 	position: fixed;
+	z-index: 10;
 	background: url('../img/nav_repeating_2.jpg') repeat;
 	height: 48px;
 	width: 100%;
