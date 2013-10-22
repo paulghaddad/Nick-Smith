@@ -14,7 +14,7 @@
 
 	h2 {
 		text-align: left;
-		margin-left: 375px;
+		margin-left: 266px;
 	}	
 	h3 {
 		@include museo;
@@ -49,8 +49,10 @@
 }
 
 .time-wrap {
-	padding: 2em 13%;
+	padding: 2em 2em;
+	margin-left: 124px;
 	height: 525px;
+	max-width: 1000px;
 	p, ul {
 		font-size: .9em;
 	}
@@ -71,7 +73,7 @@
 
 .nicktime a {
 	//display: block;
-	margin: 0 0 0 550px;
+	margin: 0 0 0 502px;
 	//width: 19%;
 	text-transform: uppercase;
 	background: $gray;

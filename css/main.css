@@ -747,7 +747,7 @@ p {
 /* line 19, ../scss/_iconick.scss */
 .portfolio-gallery {
   width: 1030px;
-  margin: 0 0 0 200px;
+  margin: 0 0 0 111px;
   padding: 2em 25px 2em 25px; }
   /* line 23, ../scss/_iconick.scss */
   .portfolio-gallery a {
@@ -799,7 +799,7 @@ p {
   /* line 15, ../scss/_nicktime.scss */
   .nicktime h2 {
     text-align: left;
-    margin-left: 375px; }
+    margin-left: 266px; }
   /* line 19, ../scss/_nicktime.scss */
   .nicktime h3 {
     font-family: "museo-slab", serif;
@@ -833,25 +833,27 @@ p {
 
 /* line 51, ../scss/_nicktime.scss */
 .time-wrap {
-  padding: 2em 13%;
-  height: 525px; }
-  /* line 54, ../scss/_nicktime.scss */
+  padding: 2em 2em;
+  margin-left: 124px;
+  height: 525px;
+  max-width: 1000px; }
+  /* line 56, ../scss/_nicktime.scss */
   .time-wrap p, .time-wrap ul {
     font-size: .9em; }
-  /* line 57, ../scss/_nicktime.scss */
+  /* line 59, ../scss/_nicktime.scss */
   .time-wrap ul {
     padding: 4px 0 0 12px; }
-    /* line 59, ../scss/_nicktime.scss */
+    /* line 61, ../scss/_nicktime.scss */
     .time-wrap ul li {
       list-style-type: square;
       line-height: 1.2; }
-    /* line 64, ../scss/_nicktime.scss */
+    /* line 66, ../scss/_nicktime.scss */
     .time-wrap ul li + li {
       padding-top: .5em; }
 
-/* line 72, ../scss/_nicktime.scss */
+/* line 74, ../scss/_nicktime.scss */
 .nicktime a {
-  margin: 0 0 0 550px;
+  margin: 0 0 0 502px;
   text-transform: uppercase;
   background: #575656;
   color: white;
@@ -865,9 +867,13 @@ p {
   background: url("../img/nav_repeating_2.jpg") repeat;
   background-position: 90% 90%; }
   /* line 5, ../scss/_nickpick.scss */
-  .nickpick h1, .nickpick h2 {
+  .nickpick h1, .nickpick h2, .nickpick h3 {
     color: white; }
   /* line 8, ../scss/_nickpick.scss */
+  .nickpick .form {
+    max-width: 1000px;
+    margin-left: 107px; }
+  /* line 12, ../scss/_nickpick.scss */
   .nickpick h1 {
     margin-left: 0;
     display: block;
@@ -876,27 +882,30 @@ p {
     position: absolute;
     left: 285px;
     top: 4383px; }
-  /* line 18, ../scss/_nickpick.scss */
+  /* line 22, ../scss/_nickpick.scss */
   .nickpick h2 {
     text-align: left;
     margin-left: 300px; }
-  /* line 22, ../scss/_nickpick.scss */
-  .nickpick p {
-    margin: 0;
-    font-size: .95em; }
   /* line 26, ../scss/_nickpick.scss */
+  .nickpick h3 {
+    margin-left: 300px; }
+  /* line 29, ../scss/_nickpick.scss */
+  .nickpick p {
+    text-align: center;
+    font-size: .95em; }
+  /* line 33, ../scss/_nickpick.scss */
   .nickpick p, .nickpick a {
     text-align: center;
     color: white; }
-  /* line 31, ../scss/_nickpick.scss */
+  /* line 38, ../scss/_nickpick.scss */
   .nickpick .social {
     margin: 30px auto;
     width: 154px; }
-    /* line 34, ../scss/_nickpick.scss */
+    /* line 41, ../scss/_nickpick.scss */
     .nickpick .social img {
       padding: 3px; }
 
-/* line 40, ../scss/_nickpick.scss */
+/* line 47, ../scss/_nickpick.scss */
 .nicknamed-banner-bottom {
   height: 632px;
   background: url("../img/nicknamed_banner_bottom.jpg") no-repeat;
