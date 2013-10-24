@@ -768,7 +768,7 @@ p {
 .nicknacks {
   min-height: 950px;
   background: url("../img/nacks.png") no-repeat, url("../img/nav_repeating_2.jpg") repeat;
-  background-position: 55px 70%; }
+  background-position: 55px 88%; }
   /* line 5, ../scss/_nicknacks.scss */
   .nicknacks h1, .nicknacks h2 {
     color: white; }
